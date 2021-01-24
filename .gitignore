@@ -6,3 +6,6 @@ test/
 
 # pythonのキャッシュは管理しない．
 __pycache__/
+
+# NumbaのAOTコンパイルで出来たモジュールは管理しない．
+*.so
