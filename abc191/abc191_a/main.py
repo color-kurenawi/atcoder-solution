@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import sys
+sys.setrecursionlimit(10**7)
+
+def main():
+    V, T, S, D = map(int, input().split())
+    
+    if V*T <= D and D <= V*S:
+        print("No")
+    else:
+        print("Yes")
+
+
+if __name__ == '__main__':
+    main()
